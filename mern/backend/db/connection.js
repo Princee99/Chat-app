@@ -1,6 +1,6 @@
 import { MongoClient, ServerApiVersion } from "mongodb";
 
-const URI = "mongodb://mongodb:27017";
+const URI = "mongodb+srv://22it106:cLustermongo55@cluster0.2gewc.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 const client = new MongoClient(URI, {
   serverApi: {
     version: ServerApiVersion.v1,
